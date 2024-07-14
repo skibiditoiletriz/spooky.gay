@@ -17,7 +17,7 @@ local notificationText = Instance.new("TextLabel")
 notificationText.Size = UDim2.new(1, -10, 1, -10)
 notificationText.Position = UDim2.new(0, 5, 0, 5)
 notificationText.BackgroundTransparency = 1
-notificationText.Text = "Spooky's Head Hitbox+ESP loaded run it"
+notificationText.Text = "Spooky's Head Hitbox+ESP has loaded"
 notificationText.TextColor3 = Color3.new(1, 1, 1)
 notificationText.TextSize = 14
 notificationText.Font = Enum.Font.SourceSansBold
@@ -617,7 +617,7 @@ local Mouse = LocalPlayer:GetMouse()
 local Camera = workspace.CurrentCamera
 
 local FOV_CIRCLE = Drawing.new("Circle")
-FOV_CIRCLE.Visible = true
+FOV_CIRCLE.Visible = false
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = 1
