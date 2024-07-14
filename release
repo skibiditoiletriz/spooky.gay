@@ -86,9 +86,9 @@ end)
 EnableBoxESP()
 
 local SelectPart = "Head"
-local HBSizeX = 100
-local HBSizeY = 100
-local HBSizeZ = 100
+local HBSizeX = 25
+local HBSizeY = 25
+local HBSizeZ = 25
 local HBTrans = 0.8
 
 local PurpleColor = BrickColor.new("Bright violet")
